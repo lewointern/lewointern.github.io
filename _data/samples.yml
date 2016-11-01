@@ -1,4 +1,4 @@
-bigheader: “实例”
+bigheader: “Samples”
 abstract: "A collection of example applications that show how to use Kubernetes."
 toc:
 - title: Samples
