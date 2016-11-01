@@ -7,18 +7,16 @@
 
 <!--  HERO  -->
 <section id="hero" class="light-text">
-  <h1>{{ site.data[foundTOC].bigheader }}</h1>
-  <h5>{{ site.data[foundTOC].abstract }}</h5>
+  <h1>"文档指南"</h1>
+  <h5>如何上手使用我们的软件</h5>
   <div id="vendorStrip" class="light-text">
     <ul>
-      <li><a href="/docs/" {% if site.data[foundTOC].bigheader == "Guides" %}class="YAH"{% endif %}>GUIDES</a></li>
-      <li><a href="/docs/tutorials/" {% if site.data[foundTOC].bigheader == "Tutorials" %}class="YAH"{% endif %}>TUTORIALS</a></li>
-      <li><a href="/docs/tasks/" {% if site.data[foundTOC].bigheader == "Tasks" %}class="YAH"{% endif %}>TASKS</a></li>
-      <li><a href="/docs/concepts/" {% if site.data[foundTOC].bigheader == "Concepts" %}class="YAH"{% endif %}>CONCEPTS</a></li>
-      <li><a href="/docs/reference" {% if site.data[foundTOC].bigheader == "Reference Documentation" %}class="YAH"{% endif %}>REFERENCE</a></li>
-      <li><a href="/docs/tools" {% if site.data[foundTOC].bigheader == "Tools" %}class="YAH"{% endif %}>TOOLS</a></li>
-      <li><a href="/docs/samples" {% if site.data[foundTOC].bigheader == "Samples" %}class="YAH"{% endif %}>SAMPLES</a></li>
-      <li><a href="/docs/troubleshooting/" {% if site.data[foundTOC].bigheader == "Support" %}class="YAH"{% endif %}>SUPPORT</a></li>
+      <li><a href="/docs/" {% if site.data[foundTOC].bigheader == "Guides" %}class="YAH"{% endif %}>指南</a></li>
+      <li><a href="/docs/tutorials/" {% if site.data[foundTOC].bigheader == "Tutorials" %}class="YAH"{% endif %}>教程</a></li>
+      <li><a href="/docs/tasks/" {% if site.data[foundTOC].bigheader == "Tasks" %}class="YAH"{% endif %}>任务</a></li>
+      <li><a href="/docs/tools" {% if site.data[foundTOC].bigheader == "Tools" %}class="YAH"{% endif %}>工具</a></li>
+      <li><a href="/docs/samples" {% if site.data[foundTOC].bigheader == "Samples" %}class="YAH"{% endif %}>实例</a></li>
+      <li><a href="/docs/troubleshooting/" {% if site.data[foundTOC].bigheader == "Support" %}class="YAH"{% endif %}>支持</a></li>
     </ul>
     <div id="searchBox">
       <input type="text" id="search" placeholder="Search" onkeydown="if (event.keyCode==13) window.location.replace('/docs/search/?q=' + this.value)">
