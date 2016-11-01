@@ -13,55 +13,32 @@
         <script src="/js/jquery-ui.min.js"></script>
 	<script src="/js/script.js"></script>
         <script src="/js/sweetalert.min.js"></script>
-	<title>Kubernetes - {{ title }}</title>
+	<title>乐我科技 - {{ title }}</title>
 </head>
 <body>
 <div id="cellophane" onclick="kub.toggleMenu()"></div>
 <header>
 	<a href="/" class="logo"></a>
 	<div class="nav-buttons" data-auto-burger="primary">
-		<a href="/docs/" class="button" id="viewDocs" data-auto-burger-exclude>View Documentation</a>
-		<a href="/docs/hellonode/" class="button" id="tryKubernetes" data-auto-burger-exclude>Try Kubernetes</a>
+		<a href="/docs/" class="button" id="viewDocs" data-auto-burger-exclude>查看文档</a>
+		<a href="/docs/hellonode/" class="button" id="tryKubernetes" data-auto-burger-exclude>尝试K8S</a>
 		<button id="hamburger" onclick="kub.toggleMenu()" data-auto-burger-exclude><div></div></button>
 	</div>
 
 	<nav id="mainNav">
 		<main data-auto-burger="primary">
 			<div class="nav-box">
-				<h3><a href="/docs/hellonode/">Get Started</a></h3>
-				<p>Ready to get your hands dirty? Build a simple Kubernetes cluster that runs "Hello World" for Node.js.</p>
+				<h3><a href="/docs/hellonode/">使用步骤及指南</a></h3>
+				<p>准备好使用我们的产品了？请参照页面内指南开始学习如何使用。</p>
 			</div>
 			<div class="nav-box">
-				<h3><a href="/docs/">Documentation</a></h3>
-				<p>Learn how to use Kubernetes with the use of walkthroughs, samples, and reference documentation. You can even <a href="/editdocs/" data-auto-burger-exclude>help contribute to the docs</a>!</p>
+				<h3><a href="/docs/">文档</a></h3>
+				<p>查看产品文档，内有产品使用所需要的信息</p>
 			</div>
 			<div class="nav-box">
-				<h3><a href="/community/">Community</a></h3>
-				<p>If you need help, you can connect with other Kubernetes users and the Kubernetes authors, attend community events, and watch video presentations from around the web.</p>
+				<h3><a href="http://blog.kubernetes.io">博客</a></h3>
+				<p>浏览我们的博客以获取最新信息</p>
 			</div>
-			<div class="nav-box">
-				<h3><a href="http://blog.kubernetes.io">Blog</a></h3>
-				<p>Read the latest news for Kubernetes and the containers space in general, and get technical how-tos hot off the presses.</p>
-			</div>
-		</main>
-		<main data-auto-burger="primary">
-			<div class="left">
-				<h5 class="github-invite">Interested in hacking on the core Kubernetes code base?</h5>
-				<a href="https://github.com/kubernetes/kubernetes" class="button" data-auto-burger-exclude>View On Github</a>
-			</div>
-
-			<div class="right">
-				<h5 class="github-invite">Explore the community</h5>
-				<div class="social">
-					<a href="https://twitter.com/kubernetesio" class="twitter"><span>Twitter</span></a>
-					<a href="https://github.com/kubernetes/kubernetes" class="github"><span>Github</span></a>
-					<a href="http://slack.k8s.io/" class="slack"><span>Slack</span></a>
-					<a href="http://stackoverflow.com/questions/tagged/kubernetes" class="stack-overflow"><span>Stack Overflow</span></a>
-					<a href="https://groups.google.com/forum/#!forum/kubernetes-users" class="mailing-list"><span>Mailing List</span></a>
-					<a href="https://calendar.google.com/calendar/embed?src=nt2tcnbtbied3l6gi2h29slvc0%40group.calendar.google.com" class="calendar"><span>Events Calendar</span></a>
-				</div>
-			</div>
-			<div class="clear" style="clear: both"></div>
 		</main>
 	</nav>
 </header>
