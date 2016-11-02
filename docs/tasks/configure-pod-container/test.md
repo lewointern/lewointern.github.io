@@ -1,12 +1,3 @@
----
-assignees:
-- bgrant0607
-- young
-
----
-* TOC
-{:toc}
-
 #How to build your own blog on git base on another website
 >###Tool: jekyll(local test), git
 Base website <https://github.com/kubernetes/kubernetes.github.io>
