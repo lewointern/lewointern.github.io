@@ -3,18 +3,18 @@
 
 How to build your own blog on git base on another website
 
->###Tool: jekyll(local test), git
+>### Tool: jekyll(local test), git
 Base website <https://github.com/kubernetes/kubernetes.github.io>
 <br />
 
-###Set up base software for jekyll
-#####Ruby
+### Set up base software for jekyll
+##### Ruby
 <http://www.ruby-lang.org/en/downloads/>
-#####RubyGems
+##### RubyGems
 <http://rubygems.org/pages/download>
-#####NodeJS
+##### NodeJS
 <http://nodejs.org/>
-#####Python2.7
+##### Python2.7
 <https://www.python.org/downloads/><br />
 
 	$gem install jekyll
@@ -23,9 +23,9 @@ __To see which version of base software you installed, you can find all those so
 
 ---
 
-###Use your base website source to build your own website locally
-
-#####For example
+### Use your base website source to build your own website locally
+ 
+##### For example
 
 	$git clone https://github.com/kubernetes/kubernetes.github.io.git
 	$cd kubernetes.github.io
@@ -101,7 +101,7 @@ Now you can open <http://localhost:4000> to see your website.
 <br />
 
 ---
-###Publish your website with github pages
+### Publish your website with github pages
 1. Create a new repositry on github:<br />**yourname.github.io**(make sure to use your user name as the first part of your repositry'name)
 2. **git clone** it into your local work space.
 3. Back-up your repositry's .git folder
@@ -118,7 +118,7 @@ Now you can find your website just public on **yourname.github.io**
 
 ---
 
-###Change the recources into your own
+### Change the recources into your own
 Now you have your github pages'blog and your local testing environment, you can create a website that actually belong to you with your own recource.<br />
 
 - Documents' list are located in */_data*
