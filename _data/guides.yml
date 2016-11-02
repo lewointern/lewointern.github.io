@@ -6,6 +6,8 @@ toc:
 
 - title: Getting Started
   section:
+  - title: test
+    path: /docs/test/
   - title: What is Kubernetes?
     path: /docs/whatisk8s/
   - title: Installing Kubernetes on Linux with kubeadm
@@ -18,6 +20,7 @@ toc:
     path: /docs/getting-started-guides/binary_release/
   - title: Online Training Course
     path: https://www.udacity.com/course/scalable-microservices-with-kubernetes--ud615
+  
 
 - title: Accessing the Cluster
   section:

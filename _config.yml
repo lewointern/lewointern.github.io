@@ -1,4 +1,4 @@
-name: Kubernetes
+name: Lewo
 markdown: kramdown
 kramdown:
   input: GFM

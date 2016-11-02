@@ -4,6 +4,8 @@ toc:
   path: /docs/tasks/
 - title: Configuring Pods and Containers
   section:
+  - title: Test
+    path: /docs/tasks/configure-pod-container/test/
   - title: Defining Environment Variables for a Container
     path: /docs/tasks/configure-pod-container/define-environment-variable-container/
   - title: Defining a Command and Arguments for a Container
