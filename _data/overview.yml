@@ -1,10 +1,10 @@
-bigheader: “Guides”
-abstract: "How to get started, and achieve tasks, using Kubernetes"
+bigheader: “Overview”
+abstract: “了解我们的平台，并上手学习如何使用”
 toc:
-- title: Guides
+- title: 概览
   path: /docs/
 
-- title: Getting Started
+- title: 从这里入手
   section:
   - title: test
     path: /docs/test/

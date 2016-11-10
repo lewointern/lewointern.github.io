@@ -1,6 +1,6 @@
-bigheader: “Tutorials”
+bigheader: “lava”
 toc:
-- title: Tutorials
+- title: lava
   path: /docs/tutorials/
 - title: Kubernetes Basics
   section:
