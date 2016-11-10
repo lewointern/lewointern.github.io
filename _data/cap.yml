@@ -1,6 +1,6 @@
 bigheader: “cap”
 toc:
-- title: 云分析平台
+- title: cap
   path: /docs/tasks/
 - title: Configuring Pods and Containers
   section:
