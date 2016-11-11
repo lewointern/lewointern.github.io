@@ -28,127 +28,100 @@ title: Production-Grade Container Orchestration
 <!--  OCEAN NODES  -->
 <section id="oceanNodes">
 	<main>
-		<div class="image-wrapper"><img src="images/01.png"></div>
+		<div class="image-wrapper"><img src="images/03.png"></div>
 		<div class="content">
 			<h3>乐我 - 云分析平台</h3>
-            <h5>Lewo – Cloud Analytics Platform</h5>
+            <h4>Lewo – Cloud Analytics Platform</h4>
 			<p>Lewo云分析平台是针对大数据平台和应用优化的一体化数据中心PaaS平台。Lewo支持公有云和私有云,可以方便的管理跨节点运行的集群容器系统 (Hadoop, HAWQ, Spark) 和各种应用; 提供数据分析,查询和存储服务, 并提供自动伸缩,自恢复,滚动升级和管理监控服务
 		</div>
 	</main>
 	<main>
-		<div class="image-wrapper"><img src="images/scalable.png"></div>
+		<div class="image-wrapper"><img src="images/01.png"></div>
 		<div class="content">
-			<h4>Planet Scale</h4>
-			<p>Designed on the same principles that allows Google to run billions of containers a week, Kubernetes can scale without increasing your ops team.</p>
+			<h4>Lava 云操作系统</h4>
+			<p>Lava 云操作系统提供数据中心的节点资源管理和容器编排功能,支持各种灵活的容器管理和部署模式,可以方便的实现弹性伸缩、自恢复和滚动升级, 并提供可视化管理和监控功能。轻松得为您的应用提供 24*7 的高可用服务。</p>
 		</div>
 	</main>
 	<main>
-		<div class="image-wrapper"><img src="images/blocks.png"></div>
+		<div class="image-wrapper"><img src="images/02.png"></div>
 		<div class="content">
-			<h4>Never Outgrow</h4>
-			<p>Whether testing locally or running a global enterprise, Kubernetes flexibility grows with you to deliver your applications consistently and easily no matter how complex your need is.</p>
+			<h4>Lewo 云分析服务</h4>
+			<p>Lewo 云分析服务基于 HAWQ-DB 和 Spark,提供结构化和非结构化数据分析服务。HAWQ-DB 是一个完全兼容 ANSI-SQL 标准的高性能原生 Hadoop MPP++分析型数据库。提供对 Hadoop 上 PB 级数据的高性能交互式查询。 并且提供对主要 BI 工具的描述性分析支持。Spark 提供一个统一的机器学习,数据挖掘的数据管理平台。</p>
 		</div>
 	</main>
 	<main>
-		<div class="image-wrapper"><img src="images/suitcase.png"></div>
+		<div class="image-wrapper"><img src="images/04.png"></div>
 		<div class="content">
-			<h4>Run Anywhere</h4>
-			<p>Kubernetes is open source giving you the freedom to take advantage of on-premise, hybrid, or public cloud infrastructure, letting you effortlessly move workloads to where it matters to you.</p>
+			<h4>Lewo 查询服务</h4>
+			<p>提供对万亿级对象存储及毫秒级快速键值查询响应能力。适用于内容管理、小文件以及图像存储查询。基于 HBase 和 HDFS。</p>
 		</div>
 	</main>
-</section>
-
-<section id="video">
-	<div class="light-text">
-		<h2>A technical overview<br>of Kubernetes</h2>
-		<p>Brendan Burns, Software Engineer and a founder of Kubernetes at Google, gives a technical overview of Kubernetes in this
-        30-minute presentation from CoreOS Fest.</p>
-		<button id="desktopShowVideoButton" onclick="kub.showVideo()">Watch Video</button>
-	</div>
-	<button id="mobileShowVideoButton" onclick="kub.showVideo()"></button>
+    <main>
+		<div class="image-wrapper"><img src="images/05.png"></div>
+		<div class="content">
+			<h4>Lewo 存储服务</h4>
+			<p>Lewo 存储服务为简化有状态应用(比如 Postgres,MySQL 等)的管理和部署而设计,为有状态应用提供标准文件系统接口和高性能持久化存储。</p>
+		</div>
+	</main>
+    <main>
+		<div class="image-wrapper"><img src="images/10.png"></div>
+		<div class="content">
+			<h4>Lewo 管理监控服务</h4>
+			<p>Lewo 管理监控服务管理整个平台组件的用户、验证和基于角色的授权,和计费服务。并且提供日志管理与监控服务。</p>
+		</div>
+	</main>
 </section>
 
 <section id="features">
 	<main>
-		<h3 class="center">Kubernetes Features</h3>
+		<h3 class="center">Lewo 核心特性</h3>
 
 		<div class="feature-box">
 			<div>
-				<h4><a href="/docs/user-guide/compute-resources/">Automatic binpacking</a></h4>
-				<p>Automatically places containers based on their resource requirements and other constraints, while not
-					sacrificing availability. Mix critical and best-effort workloads in order to drive up utilization and save even more resources.</p>
+				<h4>一体化数据与应用 PaaS 平台</a></h4>
+				<p>Lewo 是世界上第一个集成了 PaaS 和数据平台的一体化数据中心操作系统。 Lewo 突破性的解决了有状态的数据平台和无状态应用无缝结合到一个数据中心操作系统的挑战,使得整个数据中心的运维、平台及应用开发变的无比简化。</p>
 			</div>
 			<div>
-				<h4><a href="/docs/user-guide/replication-controller/#what-is-a-replication-controller">Self-healing</a></h4>
-				<p>Restarts containers that fail, replaces and reschedules containers when nodes die, kills containers
-					that don’t respond to your user-defined health check, and doesn’t advertise them to clients until they are ready to serve.</p>
+				<h4>完善的数据平台服务</h4>
+				<p>Lew  数据分析服务完全兼容 SQL-92, SQL-99, SQL-2003 以及 OLAP 扩展。 支持标准 JDBC 和 ODBC 连接,支持 Tab eau 等各大主流 BI 可视化工具和 ETL 工具。并提供完善的机器学习和数据挖掘功能。并同时支持各种非结构 化数据的处理。
+                <br>Lewo 查询服务通过高效的分布式索引提供对亿万级对象的低延迟高吞吐的查询服务。Lewo 数据分析服务和查询服务的结合使得您轻松管理您的所有类型的数据。</p>
 			</div>
 		</div>
 
 		<div class="feature-box">
 			<div>
-				<h4><a href="/docs/user-guide/horizontal-pod-autoscaling/">Horizontal scaling</a></h4>
-				<p>Scale your application up and down with a simple command, with a UI, or automatically based on CPU usage.</p>
+				<h4>高可扩展性</h4>
+				<p>Lewo 云分析平台可以支持上万节点集群,使得您不再需要为数据的快速增长和用户数的快速增长而频繁的改变数据中心基础架构。在线增加和移除节点毫秒级可以完成 。</p>
 			</div>
 			<div>
-				<h4><a href="/docs/user-guide/services/">Service discovery and load balancing</a></h4>
-				<p>No need to modify your application to use an unfamiliar service discovery mechanism. Kubernetes gives
-					containers their own IP addresses and a single DNS name for a set of containers, and can load-balance across them.</p>
+				<h4>简单易用性</h4>
+				<p>学习和使用 Lewo 非常简单,基本上所有的操作都已经被平台自动化。Lewo 提供可视化界面、命令行以及 API 接口供外部使用。</p>
 			</div>
 		</div>
-
-		<div class="feature-box">
-			<div>
-				<h4><a href="/docs/user-guide/deployments/#what-is-a-deployment">Automated rollouts and rollbacks</a></h4>
-				<p>Kubernetes progressively rolls out changes to your application or its configuration, while monitoring
-					application health to ensure it doesn’t kill all your instances at the same time. If something goes
-					wrong, Kubernetes will rollback the change for you. Take advantage of a growing ecosystem of deployment solutions.</p>
-			</div>
-			<div>
-				<h4><a href="/docs/user-guide/secrets/">Secret</a> and <a href="/docs/user-guide/configmap/">configuration</a> management</h4>
-				<p>Deploy and update secrets and application configuration without rebuilding your image and without
-					exposing secrets in your stack configuration.</p>
-			</div>
-		</div>
-        
-		<div class="feature-box">
-			<div>
-				<h4><a href="/docs/user-guide/persistent-volumes/">Storage orchestration</a></h4>
-				<p>Automatically mount the storage system of your choice, whether from local storage, a public cloud provider
-                such as <a href="https://cloud.google.com/storage/">GCP</a> or <a href="http://media.amazonwebservices.com/AWS_Storage_Options.pdf">AWS</a>, or a network storage system such as NFS, iSCSI,
-                Gluster, Ceph, Cinder, or Flocker.</p>
-			</div>
-			<div>
-				<h4><a href="/docs/user-guide/jobs/">Batch execution</a></h4>
-				<p>In addition to services, Kubernetes can manage your batch and CI workloads, replacing containers that fail, if desired.</p>
-			</div>
-		</div>
-
 	</main>
 </section>
 
-<section id="talkToUs">
+<section id="benefits">
 	<main>
-		<h3>Case Studies</h3>
-		<div id="caseStudiesWrapper">
-			<div>
-				<p>Using Kubernetes to reinvent the world’s largest educational company</p>
-				<a href="/case-studies/pearson/">Read more</a>
-			</div>
-			<div>
-				<p>Kubernetes at Box: Microservices at Maximum Velocity</p>
-				<a href="https://blog.box.com/blog/kubernetes-box-microservices-maximum-velocity/">Read more</a>
-			</div>
-			<div>
-				<p>Inside eBay’s shift to Kubernetes and containers atop OpenStack</p>
-				<a href="http://www.nextplatform.com/2015/11/12/inside-ebays-shift-to-kubernetes-and-containers-atop-openstack/">Read the story</a>
-			</div>
-			<div>
-				<p>Migrating from a homegrown ‘cluster’ to Kubernetes</p>
-				<a href="https://www.youtube.com/watch?v=6XGUTu3WhBw">Watch the video</a>
-			</div>
+		<div class="content">
+			<h3>Lewo 平台好处</h3>
+			<p>• 企业:一体化平台,降低总拥有成本(TCO),站在企业 IT 变革的前沿</p>
+            <p>• 运维人员:简化的系统安装部署和升级,统一的管理和监控,弹性扩容、自恢复以及 24*7 服务</p>
+            <p>• 开发人员:不再需要关注底层系统,开发和部署环境一致,可以方便组合各种服务,测试(CI)和开发自动化,快速应用发布(月发布到周发布)</p>
+            <p>• 最终用户:更好更稳定的服务,更快的享受快速交付的新功能</p>
 		</div>
+	</main>
+</section>
 
+<section id="aboutus">
+	<main>
+        <div class="image-wrapper"><img src="images/lewo.png"></div>
+		<div class="content">
+			<h3>关于乐我</h3>
+			<p>"乐我"是由硅谷知名云计算与大数据企业高管以及核心技术专家创立的高科技创业公司,专注于为国内外企业提供云平台上的数据管理服务,志在帮助企业轻松应对日益增长的大数据管理以及数据分析的迫切需求。 乐我"拥有全球最优秀的技术和管理团队,成员主要来自硅谷著名 Hadoop 以及互联网企业,多数为 Apache Committer 和 PMC 成员。这支团队掌握着世界上最先进的云计算以及大数据处理技术,其研究成果发表在顶级数据管理会议中 (比如 SIGMOD 等),并且拥有多项国际专利。</p>
+		</div>
+	</main>
+</section>
 		<!--<div id="bigSocial">-->
 			<!--&lt;!&ndash;<div>&ndash;&gt;-->
 				<!--&lt;!&ndash;<a href="https://youtu.be/OLwzSHBtxhI">Watch the video</a>&ndash;&gt;-->
@@ -171,7 +144,6 @@ title: Production-Grade Container Orchestration
 				<!--<a href="https://www.youtube.com/watch?v=6XGUTu3WhBw">Watch the video</a>-->
 			<!--</div>-->
 		<!--</div>-->
-		<h5 style="text-align: center"><a href="/case-studies/" style="color: #3371E3; font-weight: 400">View all case studies</a></h5>
 	</main>
 </section>
 
