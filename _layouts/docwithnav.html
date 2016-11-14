@@ -7,14 +7,14 @@
 
 <!--  HERO  -->
 <section id="hero" class="light-text">
-  <h1>"文档指南"</h1>
+  <h1>文档指南</h1>
   <h5>如何上手使用我们的软件</h5>
   <div id="vendorStrip" class="light-text">
     <ul>
       <li><a href="/docs/" {% if site.data[foundTOC].bigheader == "Overview" %}class="YAH"{% endif %}>概览</a></li>
-      <li><a href="/docs/tutorials/" {% if site.data[foundTOC].bigheader == "lava" %}class="YAH"{% endif %}>lava</a></li>
-      <li><a href="/docs/tasks/" {% if site.data[foundTOC].bigheader == "cap" %}class="YAH"{% endif %}>分析服务</a></li>
-      <li><a href="/docs/tools/" {% if site.data[foundTOC].bigheader == "download" %}class="YAH"{% endif %}>下载</a></li>
+      <li><a href="/docs/lava/" {% if site.data[foundTOC].bigheader == "lava" %}class="YAH"{% endif %}>lava</a></li>
+      <li><a href="/docs/analysis/" {% if site.data[foundTOC].bigheader == "analysis" %}class="YAH"{% endif %}>分析服务</a></li>
+      <li><a href="/docs/download/" {% if site.data[foundTOC].bigheader == "download" %}class="YAH"{% endif %}>下载</a></li>
     </ul>
   </div>
 </section>
@@ -63,14 +63,7 @@
     border-bottom: 0;
   }
 </style>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-36037335-10', 'auto');
-  ga('send', 'pageview');
-</script>
+
 <!-- Commenting out AnswerDash for now; we need to work on our list of questions/answers/design first
 <!-- Start of AnswerDash script <script>var AnswerDash;!function(e,t,n,s,a){if(!t.getElementById(s)){var i,r=t.createElement(n),c=t.getElementsByTagName(n)[0];e[a]||(i=e[a]=function(){i.__oninit.push(arguments)},i.__oninit=[]),r.type="text/javascript",r.async=!0,r.src="https://p1.answerdash.com/answerdash.min.js?siteid=756",r.setAttribute("id",s),c.parentNode.insertBefore(r,c)}}(window,document,"script","answerdash-script","AnswerDash");</script> <!-- End of AnswerDash script -->
 </body>

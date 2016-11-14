@@ -4,21 +4,10 @@ toc:
 - title: 概览
   path: /docs/
 
-- title: 基本介绍
-  section:
-  - title: test
-    path: /docs/test/
-
 - title: 安装步骤
   section:
-  - title: Installing and Setting up kubectl
-    path: /docs/user-guide/prereqs/
-  - title: Accessing Clusters
-    path: /docs/user-guide/accessing-the-cluster/
-  - title: Sharing Cluster Access with kubeconfig
-    path: /docs/user-guide/sharing-clusters/
-  - title: Authenticating Across Clusters with kubeconfig
-    path: /docs/user-guide/kubeconfig-file/
+  - title: 配置AWS虚拟机
+    path: /docs/aws/
 
 - title: 创建集群
   path: /docs/user-guide/
