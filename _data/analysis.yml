@@ -1,25 +1,17 @@
-bigheader: “cap”
+bigheader: “analysis”
 toc:
-- title: 云分析平台
+- title: 分析服务
   path: /docs/tasks/
-- title: Configuring Pods and Containers
+- title: 基本介绍
   section:
-  - title: Test
+  - title: 基本介绍
     path: /docs/tasks/configure-pod-container/test/
   - title: Defining Environment Variables for a Container
     path: /docs/tasks/configure-pod-container/define-environment-variable-container/
   - title: Defining a Command and Arguments for a Container
     path: /docs/tasks/configure-pod-container/define-command-argument-container/
-- title: Accessing Applications in a Cluster
+- title: 用法指南
   section:
   - title: Using Port Forwarding to Access Applications in a Cluster
     path: /docs/tasks/access-application-cluster/port-forward-access-application-cluster/
-- title: Accessing the Kubernetes API
-  section:
-  - title: Using an HTTP Proxy to Access the Kubernetes API
-    path: /docs/tasks/access-kubernetes-api/http-proxy-access-api/
-- title: Administering a Cluster
-  section:
-  - title: Assigning Pods to Nodes
-    path: /docs/tasks/administer-cluster/assign-pods-nodes/
 
