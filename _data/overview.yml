@@ -8,7 +8,7 @@ toc:
   section:
     - title: AWS虚拟机
       section:
-      - title: 配置AWS虚拟机
+      - title: 配置AWS登录密钥
         path: /docs/test/
       - title: 在AWS上安装
         path: /docs/buildonec2/

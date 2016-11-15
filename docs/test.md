@@ -1,7 +1,6 @@
 ---
 ---
 
-### 配置亚马逊AWS虚拟机
 1. 用浏览器访问https://console.amazonaws.cn/iam/home#/users前提为拥有亚马逊aws公司账户）
 2. 点击对应用户
 ![01](/images/docs/01.png)
