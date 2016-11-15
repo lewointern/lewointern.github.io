@@ -1,7 +1,7 @@
 bigheader: “lava”
 toc:
 - title: lava
-  path: /docs/lava/overview/
+  path: /docs/lava/
 - title: 用法指南
   path: /docs/lava/lavaguide/
   
