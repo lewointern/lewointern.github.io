@@ -1,16 +1,7 @@
 bigheader: “lava”
 toc:
 - title: lava
-  path: /docs/tutorials/
-- title: 基本介绍
-  section:
-  - title: Overview
-    path: /docs/tutorials/kubernetes-basics/
+  path: /docs/lava/overview/
 - title: 用法指南
-  section:
-  - title: Running a Stateless Application Using a Deployment
-    path: /docs/tutorials/stateless-application/run-stateless-application-deployment/
-  - title: Using a Service to Access an Application in a Cluster
-    path: /docs/tutorials/stateless-application/expose-external-ip-address-service/
-  - title: Exposing an External IP Address to Access an Application in a Cluster
-    path: /docs/tutorials/stateless-application/expose-external-ip-address/
+  path: /docs/lava/lavaguide/
+  

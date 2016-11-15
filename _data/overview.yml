@@ -6,12 +6,25 @@ toc:
 
 - title: 安装步骤
   section:
-  - title: 配置AWS虚拟机
-    path: /docs/aws/
+    - title: AWS虚拟机
+      section:
+      - title: 配置AWS虚拟机
+        path: /docs/test/
+      - title: 在AWS上安装
+        path: /docs/buildonec2/
+    - title: 物理机
+      section:
+      - title: 物理机安装
+        path: /docs/physics/
 
 - title: 创建集群
-  path: /docs/user-guide/
+  path: /docs/createcluster/
+  section:
+  - title: 创建Master结点
+    path: /docs/master/
+  - title: 创建Slave结点
+    path: /docs/slave/
 
 - title: 管理集群
-  path: /docs/user-guide/ui/
+  path: /docs/test/
 

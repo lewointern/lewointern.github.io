@@ -1,17 +1,7 @@
 bigheader: “analysis”
 toc:
 - title: 分析服务
-  path: /docs/tasks/
-- title: 基本介绍
-  section:
-  - title: 基本介绍
-    path: /docs/tasks/configure-pod-container/test/
-  - title: Defining Environment Variables for a Container
-    path: /docs/tasks/configure-pod-container/define-environment-variable-container/
-  - title: Defining a Command and Arguments for a Container
-    path: /docs/tasks/configure-pod-container/define-command-argument-container/
+  path: /docs/analysis/
 - title: 用法指南
-  section:
-  - title: Using Port Forwarding to Access Applications in a Cluster
-    path: /docs/tasks/access-application-cluster/port-forward-access-application-cluster/
+  path: /docs/test/
 

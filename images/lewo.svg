@@ -1,13 +1,13 @@
-<svg width="250" height="150" xmlns="http://www.w3.org/2000/svg">
+<svg width="120" height="70" xmlns="http://www.w3.org/2000/svg">
  <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
 
  <g>
   <title>background</title>
-  <rect fill="none" id="canvas_background" height="152" width="252" y="-1" x="-1"/>
+  <rect x="-1" y="-1" width="122" height="72" id="canvas_background" fill="none"/>
  </g>
  <g>
   <title>Layer 1</title>
-  <text font-weight="bold" stroke="null" transform="matrix(4.185416691005231,0,0,4.185416691005231,-587.1302116923035,-595.3033238167408) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_3" y="167.933549" x="146.384519" stroke-width="0" fill="#56aaff">乐我</text>
-  <text fill="#ff0000" stroke-width="0" x="141.731801" y="105.478393" id="svg_4" font-size="24" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve" transform="matrix(4.23425547552641,0,0,4.23425547552641,-474.943599558245,-338.5898026653778) " stroke="#56aaff" font-weight="bold">我</text>
+  <text font-weight="bold" stroke="#000" transform="matrix(2.4583332538604736,0,0,2.4583332538604736,-67.81249630451202,-26.249998569488525) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="18" id="svg_1" y="31.05085" x="33.88983" stroke-width="0" fill="#ff002e">乐我</text>
+  <text font-weight="bold" stroke="#000" transform="matrix(2.5186909602555865,0,0,2.5186909602555865,-0.15107466988700435,-8.390750005081754) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="18" id="svg_2" y="23.297031" x="6.147031" stroke-opacity="null" stroke-width="0" fill="#00ffff">乐</text>
  </g>
 </svg>
