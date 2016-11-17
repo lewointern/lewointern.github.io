@@ -10,12 +10,16 @@ toc:
       section:
       - title: 配置AWS登录密钥
         path: /docs/test/
-      - title: 在AWS上安装
+      - title: 在AWS上部署运行环境
         path: /docs/buildonec2/
+      - title: 在AWS上运行应用
+        path: /docs/runonaws/
     - title: 物理机
       section:
-      - title: 物理机安装
+      - title: 物理机部署运行环境
         path: /docs/physics/
+      - title: 在物理机运行应用
+        path: /docs/runonphysics/
 
 - title: 创建集群
   path: /docs/createcluster/

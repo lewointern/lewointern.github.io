@@ -7,7 +7,10 @@
 		
 		ssh-keygen -t rsa -P ''
 	
-	将生成的公钥 id_rsa.pem 写入客户机的authorizedkeys里<br><br>
+	将生成的公钥 id_rsa.pem 写入客户机的authorizedkeys里
+		
+		sudo vi ~/.ssh/authorized_keys
+		
 3. 解压当前系统对应的压缩包
 		
 		tar xvf lewo-client-<当前机器系统>-1.0.0.tar.gz
@@ -17,3 +20,11 @@
 		
 		cd lewo/bin
 		./lava scp lewo-server-1.0.0.tar.gz <目标机器>: <路径>
+		
+5. 部署master
+		
+		./lava create --driver generic --generic-ssh-user ec2-user --generic-ip-address <master私有ip> --generic-ssh-key ~/.lava/machines/master/id_rsa master
+		
+6. 部署slave
+		
+		./lava create --driver generic --generic-ssh-user ec2-user --generic-ip-address <slave的私有ip> --generic-ssh-key ~/.lava/machines/slave01/id_rsa --join master slave01

@@ -7,21 +7,18 @@
 
 亚马逊虚拟机：
 
-	./lava create --driver generic --generic-ssh-user ec2-user --generic-ip-address <master的公网ip> --generic-ssh-key ~/.lava/machines/master/id_rsa master
+	lava create --amazonec2-instance-type c3.xlarge --label zone=analysis --label role=hadoopmaster <master的机器名>
+
 	
 物理机：
 	
 	./lava create --driver generic --generic-ssh-user ec2-user --generic-ip-address <master的私有ip> --generic-ssh-key ~/.lava/machines/master/id_rsa master
 	
-###在master创建集群
-初始化磁盘
-
-	cd /tmp/lewo/conf
-	./initdisk.sh
+### 在master创建集群
 	
 创建演示版
 
-	cd /tmp/lewo/conf/lava
+	cd ~/conf/lava
 	./init.sh create demo
 	
 创建产品版
