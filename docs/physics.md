@@ -23,8 +23,8 @@
 		
 5. 部署master
 		
-		./lava create --driver generic --generic-ssh-user ec2-user --generic-ip-address <master私有ip> --generic-ssh-key ~/.lava/machines/master/id_rsa master
+		./lava create --driver generic --generic-ssh-user <master的机器名> --generic-ip-address <master私有ip> --generic-ssh-key ~/.ssh/id_rsa master
 		
 6. 部署slave
 		
-		./lava create --driver generic --generic-ssh-user ec2-user --generic-ip-address <slave的私有ip> --generic-ssh-key ~/.lava/machines/slave01/id_rsa --join master slave01
+		./lava create --driver generic --generic-ssh-user <slave的机器名> --generic-ip-address <slave的私有ip> --generic-ssh-key ~/.ssh/id_rsa --join master slave01
